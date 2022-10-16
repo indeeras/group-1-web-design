@@ -1,0 +1,921 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); */
+
+@font-face {
+    font-family: gothamblack;
+    src: url(fonts/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: gothambold;
+    src: url(fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: gothambook;
+    src: url(fonts/GothamBook.ttf);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+nav{
+    margin: auto;
+    width: 85%; 
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 30%;
+}
+.toggle{
+    display: none;
+}
+.nav-links{
+    width: 50%;
+    margin: auto;
+    list-style-type: none;
+    display: inline-flex;
+}
+.nav-links a{
+    color: #333;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em;
+    font-family: gothambook;
+}
+.nav-links a:hover{
+    color: #277BBF;
+    text-decoration: underline #277BBF;
+    font-family: gothambold;
+}
+.button{
+    padding: 1em 1em 1em 0;
+    margin: auto;
+}
+.button a{
+    color: #333;
+    text-decoration: none;
+    background-color: #ffa500;
+    padding: 1rem 2rem; 
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-family: gothamblack;
+    text-transform: uppercase;
+}
+.button a:hover{
+    border: #ffb500 solid;
+    padding: 13px 30px;
+    color: #fff;
+    background-color: #eb9800;
+}
+nav .button{
+    margin-right: -8%;
+}
+.first-fold{
+    width: 100%;
+    position: relative;
+}
+.first-fold img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2em solid #277BBF;
+}
+.first-fold-text{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    padding-bottom: 0px;
+}
+.first-fold-text h1{
+    text-align: left;
+}
+.header1{
+    font-family: gothambold;
+    margin: 3% 0;
+    font-size: 40px;
+    color: #277BBF;
+}
+.landing-p{
+    font-family: gothambook;
+    color: #333;
+    width: 480px;
+    line-height: 2rem;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.second-fold{
+    padding: 5% 0;
+    text-align: center;
+    position: relative;
+}
+.second-fold p{
+    width: 60%;
+    font-family: gothambook;
+    line-height: 2rem;
+    font-size: 24px;
+    margin: auto;
+}
+.second-fold img{
+    padding: 3% 0;
+    margin: auto;
+    width: 60%;
+}
+.third-fold{
+    padding: 5% 0;
+    background-color: #319C9F;
+    width: 100%;
+    position: relative;
+}
+
+.third-fold h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Gothambold';
+    margin: 2% 0;
+    font-size: 40px;
+}
+.rows{
+    padding: 3% 0;
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+.programmes{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 50px;
+    width: 30%;
+    margin: 3% auto;
+}
+.programme-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+}
+.program-text{
+    padding: 5% 10% 5% 10%;
+    text-align: left;
+    bottom: 0%;
+}
+.program-text h3{
+    font-family: gothambold;
+    margin: 2% 0%;
+}
+.program-text p{
+    padding: 3% 0;
+    font-family: gothambook;
+    font-size: 17px;
+    line-height: 1.2rem;
+    margin: auto;
+}
+.program-text li{
+    padding: 3% 0;
+    font-family: 'Gothambook';
+    font-size: 16px;
+    line-height: 1.2rem;
+}
+.programmes .button{
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.fourth-fold{
+    padding: 5% 0;
+    width: 100%;
+    position: relative;
+}
+.report{
+    display: flex;
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin: auto;
+}
+.fourth-fold-text{
+    width: 60%;
+}
+.fourth-fold h1{
+    text-align: left;
+    font-size: 3em;
+    line-height: 3.1rem;
+}
+.fourth-fold-text p{
+    font-size: 0.5rem;
+}
+.row{
+    padding: 3% 0;
+    display: flex;
+}
+.row img{
+    margin-right: 3%;
+    width: 35px;
+    height: 35px;
+}
+.row p{
+    font-family: gothambold;
+    font-size: 1.4em;
+    margin: auto 0;
+    color: #333;
+}
+.fifth-fold h1{
+    margin-bottom: 5%;
+    padding: 0;
+}
+.fourth-fold-img{
+    width: 50%;
+}
+.fourth-fold-img img{
+    width: 100%;
+    margin-right: 90%;
+}
+.fifth-fold{
+    padding: 3% 0;
+    text-align: center;
+    background-color: #EEF2E6;
+    width: 100%;
+    position: relative;
+}
+.fifth-fold p{
+    padding: 3% 0;
+    font-family: 'Gothambold';
+    font-size: 1.4em;
+    margin: auto 0;
+    color: #333;
+
+}
+.video_container{
+    border: solid;
+}
+.video_container iframe{
+    width: 100%;
+    border: .5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 200%;
+    object-fit: fill;
+}
+.myVideo iframe{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    z-index: -100;
+}
+.help{
+    margin: 3% auto;
+    width: 50%;
+}
+.help video{
+    width: 50%;
+}
+.help p{
+    font-family: gothambook;
+    line-height: 1.5rem;
+}
+.help a{
+    margin: auto;
+}
+.sixth-fold{
+    padding: 5% 0;
+    width: 100%;
+    position: relative;
+    border-bottom: 2em solid #277BBF;
+}
+.sixth-fold-text{
+    border: solid;
+    margin-top: 8%;
+    margin: auto;
+    width: 60%;
+    color: #319C9F;
+}
+.offices{
+    margin-top: -5%;
+    font-size: 2em;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.office1{
+    padding-right: 5%;
+    border-right: solid;
+}
+.office2{
+    padding-left: 5%;
+}
+.sixth-fold h1{
+    margin-top: -5%;
+    background-color: #fff;
+    display: inline-block;
+    padding: 2%;
+    margin-left: 5%;
+}
+.offices h4{
+    font-family: gothambold;
+    margin-bottom: 2%;
+    font-size: 24px;
+    
+}
+.offices p{
+    font-family: Gothambook;
+    line-height: 2rem;
+    font-size: 24px;
+}
+footer{
+    background: #319C9F;
+    width: 100%; 
+}
+footer .footer-links{
+    width: 90%;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-links a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em;
+    font-family: gothambook;
+}
+footer .footer-links a:hover{
+    color: #eb9800;
+    text-decoration: underline #eb9800;
+    font-family: gothambold;
+}
+
+/******************* Other *******************/
+.page-container{
+    background-color: #EEF2E6;
+    margin: auto;
+    text-align: center;
+    padding: 3% 0;
+    padding-bottom: 3%;
+    
+}
+
+.about-us nav{
+    margin: auto;
+    width: 85%; 
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 100%;
+}
+
+
+.about-us-text{
+    width:85% ;
+    margin: auto;
+
+}
+.header1{
+    font-family: 'Gotham bold', sans-serif;
+    text-align: center;
+    margin: 3% 0;
+    font-size: 40px;
+    color: #277BBF;
+    
+}
+
+.our-achievements{
+    background-color: #fff;
+    padding: 5% 0;
+
+
+}
+
+.text-align-achievements{
+    width: 85%;
+    margin: auto;
+}
+
+.our-achievements-text{
+    font-family: 'Gotham bold', sans-serif;
+    font-size: 40;
+    width:85% ;
+    margin: auto;
+    color: #277BBF;
+
+}
+
+.our-achievements h2{
+    font-family: 'Gotham bold', sans-serif;
+    text-align: center;
+    margin: 3% 0;
+    font-size: 26px;
+    color: #333;
+}
+
+.our-team-header{
+    font-family: 'Gotham bold', sans-serif;
+    text-align: center;
+    margin: 3% 0;
+    font-size: 40px;
+    color: #277BBF;
+
+}
+
+.header3{
+    font-family: 'Gotham', serif;
+    margin: 3% 0;
+    font-size: 10px;
+    color: #277BBF;
+    
+}
+
+.footer{
+    margin-top: 0%;
+    background-color: #319C9F
+}
+.footer a{
+    padding: 2em 1em;
+    font-family: 'Gothambold';
+    font-size: 14px;
+    color: white
+}
+/******************* Our Locations *******************/
+.page-container{
+    background-color: #277BBF;
+}
+
+.our-locations nav{
+    margin: auto;
+    width: 85%; 
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 100%;
+}
+
+.header1{
+    font-family: 'Gotham bold', sans-serif;
+    text-align: center;
+    margin: 1% 0;
+    font-size: 40px;
+    color: #277BBF;
+    
+}
+
+.footer{
+    margin-top: 0%;
+    background-color: #319C9F
+}
+.footer a{
+    padding: 2em 1em;
+    font-family: 'Gothambold';
+    font-size: 14px;
+    color: white
+}
+
+/******************* Programmes *******************/
+.page-container{
+    background-color: #EEF2E6;
+}
+
+.programmes nav{
+    margin: auto;
+    width: 85%; 
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 100%;
+}
+
+
+.header1{
+    font-family: 'Gotham bold', sans-serif;
+    text-align: center;
+    margin: 1% 0;
+    font-size: 40px;
+    color: #277BBF;
+    
+}
+
+.programmes footer{
+    margin-top: 0%;
+    background-color: #319C9F
+}
+.footer a{
+    padding: 2em 1em;
+    font-family: 'Gothambold';
+    font-size: 14px;
+    color: white
+}
+
+/******************* Tender *******************/
+.page-container{
+    background-color: #EEF2E6;
+}
+
+.tender nav{
+    margin: auto;
+    width: 85%; 
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 100%;
+}
+
+.header1{
+    font-family: 'Gotham bold', sans-serif;
+    text-align: center;
+    margin: 1% 0;
+    font-size: 40px;
+    color: #277BBF;
+    
+}
+
+
+.tender footer{
+    margin-top: 0%;
+    background-color: #319C9F
+}
+.footer a{
+    padding: 2em 1em;
+    font-family: 'Gothambold';
+    font-size: 14px;
+    color: white
+}
+
+/******************* Other *******************/
+.page-container{
+    background-color: #EEF2E6;
+}
+
+.tender nav{
+    margin: auto;
+    width: 85%; 
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 100%;
+}
+
+.header1{
+    font-family: 'Gotham bold', sans-serif;
+    text-align: center;
+    margin: 1% 0;
+    font-size: 40px;
+    color: #277BBF;
+    
+}
+
+.other footer{
+    margin-top: 0%;
+    background-color: #319C9F
+}
+.footer a{
+    padding: 2em 1em;
+    font-family: 'Gothambold';
+    font-size: 14px;
+    font-weight: bold;
+    color: white
+}
+
+@media screen and (max-width:1000px) and (min-width:801px){
+    nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 7% 35% 28% 15% 15%;
+    }
+    .logo{
+        grid-column: 2;
+        width: 100%;
+    }
+    .burger-menu{
+        grid-column: 5;
+        margin: auto;
+    }
+    .toggle-icon{
+        height: 33%;
+        width: 33%;
+        display: block;
+        cursor: pointer;
+        display: flex;
+    }
+    .burger-bar,
+    .burger-bar::before,
+    .burger-bar::after{
+        background: #277BBF;
+        display: block;
+        height: 2px;
+        width: 20px;
+        margin: auto;
+        
+    }
+    .burger-bar{
+        position: relative;
+        transition: background 0.25s ease-out;
+    }
+    .burger-bar::before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        transition: all 0.25s ease-out;
+    }
+    .burger-bar::after{
+        content: "";
+        position: absolute;
+        top: 5px;
+        transition: all 0.25s ease-out;
+    }
+    .toggle:checked ~ .toggle-icon .burger-bar{
+        background: transparent;
+    }
+    .toggle:checked ~ .toggle-icon .burger-bar:before{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .toggle:checked ~ .toggle-icon .burger-bar:after{
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    .nav-links{
+        padding: 0 5%;
+        justify-content: space-between;
+        width: 100%;
+        background: #277BBF;
+        max-height: 0;
+        grid-row: 3;
+        grid-column: 1/6;
+        list-style: none;
+        transition: all 0.25s ease-out;
+    }
+    .filler:nth-child(even){
+        display: none;
+    }
+    .nav-links a{
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        grid-row: 2;
+    }
+    .nav-links a:hover{
+        color: #ffa500;
+    }
+    .toggle:checked ~ .nav-links{
+        max-height: 3em;
+    }
+    .toggle:checked ~ .nav-links a{
+        display: block;
+    }
+    nav .button{
+        z-index: 5;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    .first-fold-text h1{
+        margin: 1% 0;
+        font-size: 1.20rem;
+    }
+
+    .office1{
+        width: 50%;
+    }
+
+    .landing-p{
+        padding-top: 5px;
+        line-height: 1.125rem;
+        width: 45%;
+        font-size: 1.20rem;
+    }
+
+    .first-fold-text{
+        position: absolute;
+        top: 8%;
+        left: 8%;
+        padding-bottom: 0px;
+    }
+    .help{
+        width: 80%;
+    }
+    .sixth-fold-text{
+        width: 80%;
+    }
+
+    .sixth-fold-text h4{
+        font-size: 1.5rem;
+    }
+    .sixth-fold-text p{
+        font-size: 1.20rem;
+        font-weight: 700;
+    }
+}    
+
+@media screen and (max-width:800px){
+    nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 45% 15%;
+    }
+    .logo{
+        width: 100%;
+    }
+    .burger-menu{
+        grid-column: 3;
+        margin: auto;
+    }
+    .toggle-icon{
+        height: 33%;
+        width: 33%;
+        display: block;
+        cursor: pointer;
+        display: flex;
+    }
+    .burger-bar,
+    .burger-bar::before,
+    .burger-bar::after{
+        background: #277BBF;
+        display: block;
+        height: 2px;
+        width: 20px;
+        margin: auto;
+        
+    }
+    .burger-bar{
+        position: relative;
+        transition: background 0.25s ease-out;
+    }
+    .burger-bar::before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        transition: all 0.25s ease-out;
+    }
+    .burger-bar::after{
+        content: "";
+        position: absolute;
+        top: 5px;
+        transition: all 0.25s ease-out;
+    }
+    .toggle:checked ~ .toggle-icon .burger-bar{
+        background: transparent;
+    }
+    .toggle:checked ~ .toggle-icon .burger-bar:before{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .toggle:checked ~ .toggle-icon .burger-bar:after{
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    .nav-links{
+        padding: 0 5%;
+        justify-content: space-between;
+        width: 100%;
+        background: #277BBF;
+        max-height: 0;
+        grid-row: 3;
+        grid-column: 1/4;
+        list-style: none;
+        transition: all 0.25s ease-out;
+    }
+    .filler {
+        display: none;
+    }
+    .nav-links a{
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        display: none;
+    }
+    .nav-links a:hover{
+        color: #ffa500;
+    }
+    .toggle:checked ~ .nav-links{
+        max-height: 3em;
+    }
+    .toggle:checked ~ .nav-links a{
+        display: block;
+    }
+    nav .button{
+        position: fixed;
+        top: 80%;
+        z-index: 5;
+        right: 8%;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        
+    }
+    .header1{
+        font-size: 2rem;
+    }
+    .header2{
+        font-size: 1.5rem;
+    }
+    .first-fold-text{
+        top: 0;
+        left: 0;
+        padding: 3% 5%;
+        position: relative;
+    }
+    .landing-p{
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .second-fold p{
+        width: 90%;
+    }
+    .rows{
+        display: block;
+    }
+    .programmes{
+        width: 90%;
+    }
+    .report{
+        display: block;
+    }
+    .fourth-fold-text{
+        width: 100%;
+    }
+    .help{
+        width: 90%;
+    }
+    .sixth-fold-text{
+        width: 90%;
+    }
+    .offices{
+        display: block;
+    }
+    .office1{
+        border: none;
+    }
+    .office2{
+        padding: 5% 0 0 0;
+    }
+    .offices p{
+        font-size: 1.25rem;
+    }
+    footer{
+        background: #319C9F;
+        width: 100%; 
+    }
+    footer .footer-links{
+        width: 90%;
+        margin: auto;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .footer-links a{
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1em;
+        font-family: gothambook;
+    }
+    footer .footer-links a:hover{
+        color: #eb9800;
+        text-decoration: underline #eb9800;
+        font-family: gothambold;
+    }
+}
