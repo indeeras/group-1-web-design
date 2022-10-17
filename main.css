@@ -624,6 +624,54 @@ footer .footer-links a:hover{
     color: white
 }
 
+.container_other{
+    width: 50%;
+    background-image: linear-gradient(#ffa500, #277BBF, #eb9800, #E9EDC9);
+    position: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Gotham Bold' sans-serif;
+    text-align: center;
+    color: #343434;
+    margin-top: 300px;
+    margin-left: 400px;
+    box-shadow: 0 .5rem 1rem rgba(39, 123, 191, 1);
+}
+.container_other h2{
+    font-size: 90px;
+    margin: 0;
+    font-weight: 500;
+}
+.container_other h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+}
+.container_other p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.container_other a{
+    text-decoration: none;
+    background: #ffa500;
+    color: #333;
+    display: inline-block;
+    border-radius: 5rem;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+    margin-bottom: 20px;
+}
+
+.container_other a:hover{
+    background: #ffa500;
+    transition: all 0.4s ease-in;
+}
+
 @media screen and (max-width:1000px) and (min-width:801px){
     nav{
         width: 100%;
